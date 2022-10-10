@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Tic Tac Toe - Imprint</title>
+</head>
+
+<body>
+    <header id="title-bar">
+        <span class="title truncate ">Tic Tac Toe - Imprint</span>
+        <div class="actions">
+            <button id="back-button">Game</button>
+        </div>
+    </header>
+    <main id="imprint">
+        <h3>Impressum</h3>
+
+        <h4>Angaben gemäß &sect; 5 TMG / According to &sect; 5 TMG</h4>
+        <p>Patrick Maul<br />
+            Gem&uuml;ndener Str. 16<br />
+            60599 Frankfurt am Main</p>
+
+        <h4>Kontakt / Contact</h4>
+        <p>Mail: maulpatrick1996@gmail.com</p>
+
+        <p>Quelle: / Source: <a href="https://www.e-recht24.de">e-recht24.de</a></p>
+    </main>
+    <script>
+        document.getElementById('back-button').addEventListener('click', (params) => {
+            window.location.href = "http://127.0.0.1:5500/index.html"
+        })
+    </script>
+</body>
+
+</html>
